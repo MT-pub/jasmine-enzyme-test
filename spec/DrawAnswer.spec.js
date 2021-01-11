@@ -38,9 +38,7 @@ describe('DrawAnswer', () => {
   it('should contain a `DrawAnswer` element', () => {
     //console.log("Debug-tulostus wrapperista: "+wrapper.debug())
     expect(wrapper.is('DrawAnswer')).toBe(true);
-    //console.log(wrapper.text())
     console.log("Löytyykö DrawAnswer " + wrapper.exists(DrawAnswer))
-    //console.log(wrapper.key())
   });
 
   it('should contain answer text', () => {
