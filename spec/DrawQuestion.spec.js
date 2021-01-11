@@ -19,9 +19,7 @@ describe('DrawQuestion', () => {
     },
     qIndex:0,
     answers:false,
-    dispatch:(callParams) => {
-      params = callParams
-    }
+    dispatch: jasmine.createSpy('dispatch')
   };
 
   //renderöidään komponentti
